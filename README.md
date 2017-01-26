@@ -24,7 +24,7 @@ module.exports = {
     module: {
       loaders: [
         // debug=true will wrap RamdaJs functions in error handlers with file name, line number and char location
-        { test: /\.js$/, exclude: /node_modules/, loader: 'ramda-loader?debug=true' }
+        { test: /\.js$/, exclude: /node_modules/, loader: 'ramda-loader?debug=true&strict=false' }
       ]
     }
 }
